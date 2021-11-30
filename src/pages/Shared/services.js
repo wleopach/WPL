@@ -76,7 +76,7 @@ class Services extends Component {
                                         <i className="pe-7s-tools text-custom"></i>
                                         <div className="media-body ml-4">
                                             <h4>Modelos analíticos</h4>
-                                            <p className="pt-2 text-muted">Modelos de regresión lineal, análisis de series de tiempo, diseño de experimentos, muestreo, estadística descriptiva, modelos de markov, aprendizaje conjunto, redes Bayesianas, redes neuronales, análisis topológico. </p>
+                                            <p className="pt-2 text-muted">Modelos de regresión lineal y logística, Análisis de series de tiempo, Redes Neuronales, Análisis topológico de datos</p>
                                         </div>
                                     </div>
                                 </div>

@@ -96,7 +96,7 @@ class About1 extends Component {
                       </div>
                     </div>
                     <h4 className="team-name">Santiago</h4>
-                    <h5 className="text-uppercase">-</h5>
+                    <h5 className="text-uppercase">Analista de Sistemas</h5>
                     <p className="team-designation">
                       Ingeniero de Sistemas y Computación.
                     </p>
