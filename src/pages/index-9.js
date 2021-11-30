@@ -12,7 +12,6 @@ import Header from './Layouts/header';
 import FooterAlt from './Layouts/footer-alt';
 
 // Shared
-import About from './Shared/about';
 import Services from './Shared/services';
 import About1 from './Shared/about1';
 import ContactUs from './Shared/contact-us';
