@@ -47,10 +47,10 @@ class Header extends Component {
                                     className={this.state.isOpen ? "navbar-nav ml-0 float-left" : "navbar-nav navbar-center"} >
                                         
                                     <ul className={this.state.isOpen ? "navbar-nav navbar-left" : "navbar-nav ml-auto navbar-left"} id="mySidenav">
-                                        <li className="nav-item active"><a href="#home" className="nav-link">Inicio</a></li>
-                                        <li className="nav-item"><a href="#services" className="nav-link">Servicios</a></li>
-                                        <li className="nav-item"><a href="#about" className="nav-link">Acerca de nosotros</a></li>
-                                        <li className="nav-item"><a href="#contact" className="nav-link">Contacto</a> </li>
+                                        <li className="nav-item active"><a style={{fontSize:"18px"}} href="#home" className="nav-link">Inicio</a></li>
+                                        <li className="nav-item"><a style={{fontSize:"18px"}} href="#services" className="nav-link">Servicios</a></li>
+                                        <li className="nav-item"><a style={{fontSize:"18px"}} href="#about" className="nav-link">Acerca de nosotros</a></li>
+                                        <li className="nav-item"><a style={{fontSize:"18px"}} href="#contact" className="nav-link">Contacto</a> </li>
                                     </ul>
 
                                 </ScrollspyNav>

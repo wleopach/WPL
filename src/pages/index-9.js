@@ -70,7 +70,7 @@ class Index9 extends Component {
                                     <Col lg="8" className="offset-lg-2 text-white text-center">
                                         <h4 className="home-small-title">Análisis de datos</h4>
                                         <h1 className="home-title">Especializados en procesamiento del lenguaje natural</h1>
-                                        <p className="padding-t-15 home-desc mx-auto">Ofrecemos servicios tecnológicos y estadísticos. Nos enfocamos en el procesamiento de lenguaje natural, rama de la inteligencia artificial que ayuda a las computadoras a entender, interpretar y manipular el lenguaje humano.</p>
+                                        <p style={{color:"#FFFFFF"}} className="padding-t-15 home-desc mx-auto">Ofrecemos servicios tecnológicos y estadísticos. Nos enfocamos en el procesamiento de lenguaje natural, rama de la inteligencia artificial que ayuda a las computadoras a entender, interpretar y manipular el lenguaje humano.</p>
                                       </Col>
                                 </Row>
                             </div>
