@@ -14,10 +14,6 @@ import './css/colors/red.css';
 
 const Index = React.lazy(() => import('./pages/index-9'));
 
-const Login = React.lazy(() => import('./pages/Auth/login'));
-const Register = React.lazy(() => import('./pages/Auth/register'));
-const ForgetPassword = React.lazy(() => import('./pages/Auth/password-forget'));
-
 class App extends Component {
  
   render() {
