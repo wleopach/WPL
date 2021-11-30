@@ -30,7 +30,7 @@ class Services extends Component {
                                         <i className="pe-7s-chat text-custom"></i>
                                         <div className="media-body ml-4">
                                             <h4>Chatbots inteligentes</h4>
-                                            <p className="pt-2 text-muted">Asistente conversacionales capaces de atender las necesidades de tus clientes 24/7</p>
+                                            <p className="pt-2 text-muted">Asistentes conversacionales capaces de atender las necesidades de tus clientes 24/7</p>
                                         </div>
                                     </div>
                                 </div>
