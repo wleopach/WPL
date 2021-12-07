@@ -5,6 +5,9 @@ import img2 from "../../images/team/img-2.jpg";
 import img3 from "../../images/team/img-3.jpg";
 import img4 from "../../images/team/img-4.jpg";
 import img5 from "../../images/team/img-5.jpg";
+import img6 from "../../images/team/img-6.jpg";
+import img7 from "../../images/team/img-7.jpg";
+import img8 from "../../images/team/img-8.jpg";
 
 import { Col, Row as div } from "reactstrap";
 
@@ -30,8 +33,23 @@ class About1 extends Component {
                 <div className="col">
                   <div className="text-center">
                     <div className="team-wrapper">
-                      <div className="team-member" style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
-                        <div style={{backgroundImage:`url(${img1})`, backgroundSize:"cover", width:"150px", height:"150px",  backgroundPosition: "center"}}></div>
+                      <div
+                        className="team-member"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        <div
+                          style={{
+                            backgroundImage: `url(${img1})`,
+                            backgroundSize: "cover",
+                            width: "150px",
+                            height: "150px",
+                            backgroundPosition: "center",
+                          }}
+                        ></div>
                       </div>
                     </div>
                     <h4 className="team-name">Juan Felipe</h4>
@@ -46,8 +64,23 @@ class About1 extends Component {
                 <div className="col">
                   <div className="text-center">
                     <div className="team-wrapper">
-                      <div className="team-member" style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
-                        <div style={{backgroundImage:`url(${img2})`, backgroundSize:"cover", width:"150px", height:"150px",  backgroundPosition: "center"}}></div>
+                      <div
+                        className="team-member"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        <div
+                          style={{
+                            backgroundImage: `url(${img2})`,
+                            backgroundSize: "cover",
+                            width: "150px",
+                            height: "150px",
+                            backgroundPosition: "center",
+                          }}
+                        ></div>
                       </div>
                     </div>
                     <h4 className="team-name">Laura</h4>
@@ -62,8 +95,23 @@ class About1 extends Component {
                 <div className="col">
                   <div className="text-center">
                     <div className="team-wrapper">
-                      <div className="team-member" style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
-                      <div style={{backgroundImage:`url(${img3})`, backgroundSize:"cover", width:"150px", height:"150px",  backgroundPosition: "center"}}></div>
+                      <div
+                        className="team-member"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        <div
+                          style={{
+                            backgroundImage: `url(${img3})`,
+                            backgroundSize: "cover",
+                            width: "150px",
+                            height: "150px",
+                            backgroundPosition: "center",
+                          }}
+                        ></div>
                       </div>
                     </div>
                     <h4 className="team-name">Yiby</h4>
@@ -77,8 +125,23 @@ class About1 extends Component {
                 <div className="col">
                   <div className=" text-center">
                     <div className="team-wrapper">
-                      <div className="team-member" style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
-                      <div style={{backgroundImage:`url(${img4})`, backgroundSize:"cover", width:"150px", height:"150px", backgroundPosition: "center"}}></div>
+                      <div
+                        className="team-member"
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        <div
+                          style={{
+                            backgroundImage: `url(${img4})`,
+                            backgroundSize: "cover",
+                            width: "150px",
+                            height: "150px",
+                            backgroundPosition: "center",
+                          }}
+                        ></div>
                       </div>
                     </div>
                     <h4 className="team-name">Jose</h4>
@@ -88,7 +151,9 @@ class About1 extends Component {
                     </p>
                   </div>
                 </div>
-                <div className="col">
+              </div>
+              <div className="row">
+              <div className="col">
                   <div className="text-center">
                     <div className="team-wrapper">
                       <div className="team-member" style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
@@ -96,9 +161,51 @@ class About1 extends Component {
                       </div>
                     </div>
                     <h4 className="team-name">Santiago</h4>
-                    <h5 className="text-uppercase">Analista de Sistemas</h5>
+                    <h5 className="text-uppercase">Arquitecto de software</h5>
                     <p className="team-designation">
                       Ingeniero de Sistemas y Computación.
+                    </p>
+                  </div>
+                </div>
+                <div className="col">
+                  <div className="text-center">
+                    <div className="team-wrapper">
+                      <div className="team-member" style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
+                      <div style={{backgroundImage:`url(${img6})`, backgroundSize:"250px", width:"150px", height:"150px", backgroundPosition: "50% 35%"}}></div>
+                      </div>
+                    </div>
+                    <h4 className="team-name">Humberto</h4>
+                    <h5 className="text-uppercase">Estadístico senior</h5>
+                    <p className="team-designation">
+                    M.Sc. en Sistemas. Experto en gerencia de proyectos. 
+                    </p>
+                  </div>
+                </div>                
+                <div className="col">
+                  <div className="text-center">
+                    <div className="team-wrapper">
+                      <div className="team-member" style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
+                      <div style={{backgroundImage:`url(${img7})`, backgroundSize:"cover", width:"150px", height:"150px", backgroundPosition: "center"}}></div>
+                      </div>
+                    </div>
+                    <h4 className="team-name">Carlos</h4>
+                    <h5 className="text-uppercase">Analista de datos NLP</h5>
+                    <p className="team-designation">
+                    Ph.D. en Matemáticas.
+                    </p>
+                  </div>
+                </div>
+                <div className="col">
+                  <div className="text-center">
+                    <div className="team-wrapper">
+                      <div className="team-member" style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>
+                      <div style={{backgroundImage:`url(${img8})`, backgroundSize:"150px", width:"150px", height:"150px", backgroundPosition: "50% 1%"}}></div>
+                      </div>
+                    </div>
+                    <h4 className="team-name">Alejandra</h4>
+                    <h5 className="text-uppercase">Creadora de contenidos</h5>
+                    <p className="team-designation">
+                      MSc. en Química
                     </p>
                   </div>
                 </div>
