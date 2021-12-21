@@ -14,6 +14,9 @@ import './css/colors/red.css';
 
 const Index = React.lazy(() => import('./pages/index-9'));
 
+const About = React.lazy(() => import('./pages/Subpages/about'));
+
+
 class App extends Component {
  
   render() {
@@ -23,8 +26,9 @@ class App extends Component {
 
         <Router>
         <React.Suspense fallback={<div>&nbsp;</div>}>
-          <Switch>  
-              <Route path="/" component={Index} /> 
+          <Switch>           
+            <Route path="/about" component={About} />  
+            <Route path="/" component={Index} />               
            </Switch>
            </React.Suspense>
         </Router>        

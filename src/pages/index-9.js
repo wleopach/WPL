@@ -16,9 +16,6 @@ import Services from './Shared/services';
 import About1 from './Shared/about1';
 import ContactUs from './Shared/contact-us';
 
-// Modal Video 
-import '../../node_modules/react-modal-video/scss/modal-video.scss';
-
 
 
 class Index9 extends Component {

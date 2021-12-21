@@ -29,14 +29,19 @@ class ContatUs extends Component {
                                     <div id="message"></div>
                                     <AvForm id="contact-form">
                                         <div className="row">
-                                            <div className="col-lg-6">
+                                            <div className="col-lg-4">
                                                 <div className="form-group mt-2">
                                                    <AvField type="text" name="name" className="form-control"  placeholder="Nombre*"  required />
                                                 </div>
                                             </div>
-                                            <div className="col-lg-6">
+                                            <div className="col-lg-4">
                                                 <div className="form-group mt-2">
                                                 <AvField type="email" name="email" className="form-control"  placeholder="Correo electrónico*"  required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-4">
+                                                <div className="form-group mt-2">
+                                                <AvField type="text" name="enterprise" className="form-control"  placeholder="Empresa*"  required />
                                                 </div>
                                             </div>
                                         </div>
