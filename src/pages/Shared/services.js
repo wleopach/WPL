@@ -41,7 +41,7 @@ class Services extends Component {
                                         <i className="pe-7s-like2 text-custom"></i>
                                         <div className="media-body ml-4">
                                             <h4>Clasificación de textos</h4>
-                                            <p className="pt-2 text-muted">Clasificación de datos no estructurados. Análisis de sentimientos y clasifiación de PQR. Te ayudamos a entender como se relacionan tus clientes con tu producto.</p>
+                                            <p className="pt-2 text-muted">Clasificación de datos no estructurados. Análisis de sentimientos y clasificación de PQR. Te ayudamos a entender como se relacionan tus clientes con tu producto.</p>
                                         </div>
                                     </div>
                                 </div>

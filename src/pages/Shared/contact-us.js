@@ -1,17 +1,32 @@
 
-import React, { Component } from 'react';
+import React, { Component} from 'react';
 import { AvForm, AvField } from 'availity-reactstrap-validation';
+import emailjs from '@emailjs/browser';
+import AvInput from 'availity-reactstrap-validation/lib/AvInput';
 
 class ContatUs extends Component {
 
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         this.state = {
+            nonVisible: true
         }
     }
 
-    render() {
+    handleSubmit = (event, errors, values) => {       
+        
+        this.setState({nonVisible: false})
 
+        emailjs.send('service_tjyqkyc', 'template_xee9czy', values, 'user_4ktiAfiGoAzJWwLCblbSL')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);  
+        });       
+
+    }
+
+    render() {
         return (
             <React.Fragment>
                 <section className="section " id="contact">
@@ -27,11 +42,11 @@ class ContatUs extends Component {
                             <div className="col-lg-12">
                                 <div className="custom-form mt-4 pt-4">
                                     <div id="message"></div>
-                                    <AvForm id="contact-form">
+                                    <AvForm id="contact-form" onSubmit={this.handleSubmit}>
                                         <div className="row">
                                             <div className="col-lg-4">
                                                 <div className="form-group mt-2">
-                                                   <AvField type="text" name="name" className="form-control"  placeholder="Nombre*"  required />
+                                                   <AvField type="text" name="names" className="form-control"  placeholder="Nombre*"  required />
                                                 </div>
                                             </div>
                                             <div className="col-lg-4">
@@ -55,14 +70,15 @@ class ContatUs extends Component {
                                         <div className="row">
                                             <div className="col-lg-12">
                                                 <div className="form-group mt-2">
-                                                    <textarea name="comments"  id="comments" rows="4" className="form-control" placeholder="Tu mensaje..."></textarea>
+                                                    <AvInput type="textarea" name="comments"  id="comments" rows="4"  className="form-control" placeholder="Tu mensaje..."></AvInput>
                                                 </div>
                                             </div>
                                         </div>
+                                        <p hidden={this.state.nonVisible} className="section-subtitle text-center font-secondary padding-t-30">¡Mensaje enviado!</p>
                                         <div className="row">
                                             <div className="col-lg-12 text-right">
                                                 <input type="submit" id="submit" name="send" className="submitBnt btn btn-custom" value="Enviar Mensaje" />
-                                                <div id="simple-msg"></div>
+                                                <div id="simple-msg"></div> 
                                             </div>
                                         </div>
                                     </AvForm>
@@ -70,7 +86,7 @@ class ContatUs extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section>  
 
             </React.Fragment>
         );

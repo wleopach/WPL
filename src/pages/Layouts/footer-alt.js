@@ -26,8 +26,8 @@ class FooterAlt extends Component {
                                 </div>
                                 <div className="float-right pull-none ">
                                     <ul className="list-inline social m-0">
-                                        <li style={{color:"#FFFFFF"}} className="list-inline-item"><Link to= {{pathname: "https://www.facebook.com/Laguna-ai-106208701804570"}} className="social-icon" target="_blank"><i style={{color:"#FFFFFF"}} className="mdi mdi-facebook"></i></Link></li>
-                                        <li className="list-inline-item"><Link to={{pathname: "https://twitter.com/Laguna_ai"}} className="social-icon"><i style={{color:"#FFFFFF"}} className="mdi mdi-twitter" target="_blank"></i></Link></li>
+                                        <li className="list-inline-item"><Link to={{pathname: "https://www.facebook.com/Laguna-ai-106208701804570"}} className="social-icon" target="_blank"><i style={{color:"#FFFFFF"}} className="mdi mdi-facebook"></i></Link></li>
+                                        <li className="list-inline-item"><Link to={{pathname: "https://twitter.com/Laguna_ai"}} className="social-icon" target="_blank"><i style={{color:"#FFFFFF"}} className="mdi mdi-twitter"></i></Link></li>
                                         <li className="list-inline-item"><Link to={{pathname: "https://www.linkedin.com/company/laguna-ai/"}} className="social-icon" target="_blank" ><i style={{color:"#FFFFFF"}} className="mdi mdi-linkedin"></i></Link></li>
                                         <li className="list-inline-item"><Link to={{pathname: "https://www.instagram.com/laguna.ai/"}} className="social-icon" target="_blank"><i style={{color:"#FFFFFF"}} className="mdi mdi-instagram"></i></Link></li>
                                     </ul>
